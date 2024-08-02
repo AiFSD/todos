@@ -1,0 +1,216 @@
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border:1px solid gray;
+    border-radius: 12px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.todo-item {
+    
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    width: 350px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h2 {
+    font-weight: bold;
+    margin-top: 0;
+    color: #333;
+}
+
+.todo-item p {
+    margin-bottom: 10px;
+    color: #666;
+    border: solid 1px black;
+    border-radius:6px;
+    height:40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.status-select {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.status-select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-btn,
+.delete-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: #333 1px solid;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #3e8e41;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+}
+
+.edit-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 15px;
+    
+}
+
+.edit-form input[type="text"]:focus {
+    
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.input-field{
+    margin-right: 90px;
+    width: 340px;
+        height: 40px;
+    border: solid black 1px;
+    margin-top: 100px;
+}
+.todo-app{
+    align-content: center;
+    text-align: center;
+}
+
+
+.filter-select{
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 12px;
+}
+
+.status-selects{
+    margin-left:60px;
+    margin-bottom: 80px;
+    height: 35px;
+    padding: 2px;
+    
+}
+.add-todo-btn{
+    margin-left: 120px;
+    width :40%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: orange;
+}
+
+
+.dropdown-toggle {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 890px;
+
+}
+.dropdown-toggle:hover {
+    background-color: #3e8e41;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: right;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #333;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+    color: #337ab7;
+}
+.efn{
+    height: 25px;
+    margin-top: 10px;
+    
+    
+    
+}
+.efd {
+    height: 25px;
+    margin-top: 20px;
+    
+}
+.efb{
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-weight: bolder;
+}
+.todo{
+    margin-right: 1100px;
+}
